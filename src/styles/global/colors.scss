@@ -1,0 +1,21 @@
+// Main colors
+$primary: #F8F5F2; // white bg
+$lighterPrimary: #FFFFFE; // gray light bg
+$secondary: #232D32; // antra txt
+$secondaryDarker: #A19C97; // sand dark txt/borders
+$pink: #F091FF; // buttons and links
+// Extra colors
+$green: #009150; // collective action green
+
+:root {
+    --primary: #{$primary};
+    --lighterPrimary: #{$lighterPrimary};
+    --secondary: #{$secondary};
+    --secondaryDarker: #{$secondaryDarker};
+    --pink: #{$pink};
+    --green: #{$green};
+
+    // Even though this looks like a Sass variable, it's valid CSS so it's not
+    // evaluated.
+    --consumed-by-js: $primary;
+}
