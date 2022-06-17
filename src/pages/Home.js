@@ -5,7 +5,7 @@ import "../styles/pageStyle/home.scss";
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='home'>Home</div>
   )
 }
 
